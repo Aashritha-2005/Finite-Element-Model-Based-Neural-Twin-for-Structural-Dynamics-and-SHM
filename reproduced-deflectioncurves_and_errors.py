@@ -1,3 +1,4 @@
+#Reproduced deflection curves of the beam and corresponding errors in the four cases with different numbers of loading points. 
 import numpy as np
 import matplotlib.pyplot as plt
 
