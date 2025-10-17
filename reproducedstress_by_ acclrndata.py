@@ -1,9 +1,3 @@
-# %%
-import marimo
-
-__generated_with = "0.1.0"
-app = marimo.App()
-
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator
@@ -98,4 +92,4 @@ for i, case in enumerate([1, 2, 3, 4]):
 plt.tight_layout()
 plt.subplots_adjust(hspace=0.35, wspace=0.3)  # Adjusted spacing
 plt.show()
-# %%
+
