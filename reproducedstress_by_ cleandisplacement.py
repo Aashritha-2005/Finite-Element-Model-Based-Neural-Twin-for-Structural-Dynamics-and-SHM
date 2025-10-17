@@ -1,9 +1,3 @@
-# %%
-import marimo
-
-__generated_with = "0.1.0"
-app = marimo.App()
-
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator
@@ -102,4 +96,4 @@ for i, case in enumerate([1, 2, 3, 4]):
             ax.legend(loc='lower left', frameon=True, borderpad=0.3)
 
 plt.show()
-# %%
+
