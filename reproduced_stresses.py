@@ -1,8 +1,4 @@
-# %%
-import marimo
-
-__generated_with = "0.1.0"
-app = marimo.App()
+# Reproduced stresses obtained using noise-reduced displacement data for loading in Cases 1–4
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -81,4 +77,4 @@ for i, (pattern, true_stress) in enumerate(zip(patterns, true_stress_all)):
         axs[row, col].grid(True)
 
 fig.tight_layout()
-plt.show()# %%
+plt.show()
